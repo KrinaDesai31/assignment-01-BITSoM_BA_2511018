@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f1" },
+    "product_id": "ELEC-001",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "category": "Electronics",
+    "brand": "Sony",
+    "price": 29990,
+    "currency": "INR",
+    "stock": 85,
+    "specs": {
+      "battery_life_hours": 30,
+      "connectivity": ["Bluetooth 5.2", "3.5mm Jack"],
+      "noise_cancellation": true,
+      "voltage": "5V DC",
+      "warranty_years": 1,
+      "color_options": ["Black", "Silver", "Midnight Blue"]
+    },
+    "ratings": {
+      "average": 4.6,
+      "total_reviews": 1243
+    },
+    "tags": ["wireless", "noise-cancelling", "premium", "audio"],
+    "in_stock": true,
+    "created_at": { "$date": "2024-01-10T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f2" },
+    "product_id": "CLTH-001",
+    "name": "Men's Slim Fit Cotton Kurta",
+    "category": "Clothing",
+    "brand": "FabIndia",
+    "price": 1299,
+    "currency": "INR",
+    "stock": 200,
+    "specs": {
+      "fabric": "100% Cotton",
+      "fit": "Slim Fit",
+      "sizes_available": ["S", "M", "L", "XL", "XXL"],
+      "color_options": ["White", "Light Blue", "Beige", "Olive"],
+      "care_instructions": ["Hand wash", "Do not bleach", "Iron on low heat"],
+      "occasion": ["Casual", "Festive"]
+    },
+    "ratings": {
+      "average": 4.2,
+      "total_reviews": 587
+    },
+    "tags": ["ethnic", "cotton", "casual", "festive"],
+    "in_stock": true,
+    "created_at": { "$date": "2024-01-15T00:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f3" },
+    "product_id": "GROC-001",
+    "name": "India Gate Classic Basmati Rice 5kg",
+    "category": "Groceries",
+    "brand": "India Gate",
+    "price": 649,
+    "currency": "INR",
+    "stock": 500,
+    "specs": {
+      "weight_kg": 5,
+      "expiry_date": { "$date": "2024-12-31T00:00:00Z" },
+      "manufactured_date": { "$date": "2024-03-01T00:00:00Z" },
+      "nutritional_info": {
+        "calories_per_100g": 350,
+        "carbohydrates_g": 78,
+        "protein_g": 7,
+        "fat_g": 0.5,
+        "fiber_g": 0.4
+      },
+      "organic": false,
+      "allergens": [],
+      "storage": "Store in a cool, dry place",
+      "country_of_origin": "India",
+      "fssai_license": "10013022002733"
+    },
+    "ratings": {
+      "average": 4.5,
+      "total_reviews": 3120
+    },
+    "tags": ["rice", "basmati", "staple", "gluten-free"],
+    "in_stock": true,
+    "created_at": { "$date": "2024-03-05T00:00:00Z" }
+  }
+]
